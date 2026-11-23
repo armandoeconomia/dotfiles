@@ -56,7 +56,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
@@ -85,4 +84,27 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
     "files.autoSave": "afterDelay",
+    "chat.instructionsFilesLocations": {
+      ".github/instructions": true,
+      ".claude/rules": true,
+      "~/.copilot/instructions": true,
+      "~/.claude/rules": true,
+      "/var/folders/81/s3rn4wxx4sx7lns6bwl5y11h0000gn/T/postman-collections-post-response.instructions.md": true,
+      "/var/folders/81/s3rn4wxx4sx7lns6bwl5y11h0000gn/T/postman-collections-pre-request.instructions.md": true,
+      "/var/folders/81/s3rn4wxx4sx7lns6bwl5y11h0000gn/T/postman-folder-post-response.instructions.md": true,
+      "/var/folders/81/s3rn4wxx4sx7lns6bwl5y11h0000gn/T/postman-folder-pre-request.instructions.md": true,
+      "/var/folders/81/s3rn4wxx4sx7lns6bwl5y11h0000gn/T/postman-http-request-post-response.instructions.md": true,
+      "/var/folders/81/s3rn4wxx4sx7lns6bwl5y11h0000gn/T/postman-http-request-pre-request.instructions.md": true,
+      "/tmp/claude-501/postman-collections-post-response.instructions.md": true,
+      "/tmp/claude-501/postman-collections-pre-request.instructions.md": true,
+      "/tmp/claude-501/postman-folder-post-response.instructions.md": true,
+      "/tmp/claude-501/postman-folder-pre-request.instructions.md": true,
+      "/tmp/claude-501/postman-http-request-post-response.instructions.md": true,
+      "/tmp/claude-501/postman-http-request-pre-request.instructions.md": true
+    },
+    "[erb]": {
+      "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Dark Modern",
 }

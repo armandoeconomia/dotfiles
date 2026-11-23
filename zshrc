@@ -70,3 +70,10 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export PATH="$HOME/.local/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/armandocermeno/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/armandocermeno/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/armandocermeno/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/armandocermeno/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
